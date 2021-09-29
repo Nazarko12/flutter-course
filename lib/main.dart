@@ -70,7 +70,7 @@ void _showInformation(BuildContext context) {
         content: const Text("Added to catalog"),
         actions: <Widget>[
           FlatButton(
-            child: const Text("Okey"),
+            child: const Text("Okay"),
             onPressed: () {
               Navigator.of(context).pop();
             },
